@@ -154,28 +154,28 @@ body {
     color: #000000;
 }
 
-.experience,
-.education,
-.awards {
+.experience-content,
+.education-content,
+.awards-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 2rem;
-    color: #F1F8FD;
+    color: #000000;
 }
 
-.exp-company-name,
+.company-name,
 .education-school-name,
 .awards-company-name {
     font-size: 25px;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #FDB44B;
+    color: #062c2d;
     padding-bottom: .4rem;
 }
 
 .exp-time-period,
-.educationp-time-period,
+.education-time-period,
 .awards-time-period {
     font-size: 18px;
     letter-spacing: 1px;
@@ -189,7 +189,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #FDB44B;
+    color: #062c2d;
     padding-bottom: .4rem;
 }
 
@@ -205,9 +205,9 @@ body {
 
 /* Media queries */
 @media screen and (max-width:780px) {
-    .experience-contents,
-    .education-contents,
-    .awards-contents {
+    .experience-content,
+    .education-content,
+    .awards-content {
         grid-template-columns: repeat(1, 1fr);
     }
 }
@@ -271,7 +271,7 @@ body {
         line-height: 1.5rem;
     }
 
-    .exp-company-name,
+    .company-name,
     .education-school-name,
     .awards-company-name {
         font-size: 18px;
