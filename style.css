@@ -94,12 +94,13 @@ body {
 .references ul li i {
     padding-right: 1rem;
     font-size: 18px;
-    color: #2E86C1;
+    color: #a95285;
 }
 
 .skills ul {
     padding-top: 1.5rem;
 }
+
 .skills ul li p {
     padding: .4rem 0;
     color: #ffffff;
@@ -147,6 +148,7 @@ body {
 .gap {
     padding-bottom: 2rem;
 }
+
 .about-me {
     font-size: 18px;
     letter-spacing: 1px;
@@ -156,7 +158,7 @@ body {
 
 .experience-content,
 .education-content,
-.awards-content {
+.statement-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 2rem;
@@ -165,7 +167,7 @@ body {
 
 .company-name,
 .school-name,
-.awards-company-name {
+.co-name {
     font-size: 25px;
     font-weight: bold;
     text-transform: uppercase;
@@ -176,7 +178,7 @@ body {
 
 .exp-time-period,
 .edu-time-period,
-.awards-time-period {
+.alliance {
     font-size: 18px;
     letter-spacing: 1px;
     line-height: 2rem;
@@ -184,7 +186,7 @@ body {
 
 .exp-position,
 .edu-subject,
-.awards-name {
+.praise {
     font-size: 25px;
     font-weight: bold;
     text-transform: uppercase;
@@ -195,7 +197,7 @@ body {
 
 .exp-desc,
 .edu-desc,
-.awards-desc {
+.full-rec {
     font-size: 16px;
     letter-spacing: 1px;
     line-height: 1.5rem;
@@ -205,9 +207,10 @@ body {
 
 /* Media queries */
 @media screen and (max-width:780px) {
+
     .experience-content,
     .education-content,
-    .awards-content {
+    .statement-content {
         grid-template-columns: repeat(1, 1fr);
     }
 }
@@ -216,11 +219,11 @@ body {
     .left-side {
         grid-column: span 3;
     }
-    
+
     .right-side {
         grid-column: span 4;
     }
-    
+
 }
 
 @media screen and (max-width:1200px) {
@@ -273,19 +276,19 @@ body {
 
     .company-name,
     .school-name,
-    .awards-company-name {
+    .co-name {
         font-size: 18px;
     }
 
     .exp-time-period,
     .edu-time-period,
-    .awards-time-period {
+    .alliance {
         font-size: 16px;
     }
 
     .exp-position,
     .edu-subject,
-    .awards-name {
+    .praise {
         font-size: 18px;
     }
 }
